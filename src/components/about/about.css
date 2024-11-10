@@ -1,0 +1,151 @@
+/* ----------about----------*/
+.about {
+    position: relative;
+}
+
+.itemContent {
+    width: 100%;
+    border: 20px solid #2f2f2f;
+    height: 90vh;
+    position: relative;
+    margin: 40px 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentRight,
+.contentLeft {
+    height: 100%;
+    padding: 0 50px;
+    position: relative;
+}
+
+.about h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about .h2Top {
+    width: 170px;
+}
+
+.about .details {
+    margin-bottom: 20px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    border: none;
+    outline: none;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    padding: 7px 30px;
+    background: linear-gradient(125deg, #1ebd01, #1ebd70);
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    /* border: 1px solid #fff; */
+    /* border: 5px solid #1ebd65 */
+}
+
+a:hover {
+    border-bottom: 1px solid #6a6a6a;
+}
+
+a {
+    text-decoration: none;
+    color: #6a6a6a;
+    transition: .5s;
+}
+
+.about .contentLeft {
+    padding: 0 20px 0 50px;
+
+}
+
+.about .contentLeft::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../../../public/images/about-me-bg.jpg"), linear-gradient(130deg, #000, #222, #000);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.about .heading {
+    /* border: 1px solid #fff; */
+    background: #333;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .heading h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 0;
+    word-spacing: 5px;
+}
+
+.about .para span {
+    font-size: 20px;
+}
+
+.about .para {
+    background: #222;
+    padding: 130px 66px 0 66px;
+    width: 100%;
+    height: 85%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/* .about .contentRight h3,
+  .about .contentRight p {
+    border: 1px solid #fff;
+  } */
+.about .contentRight {
+    padding: 0;
+}
+
+.about .para h3 {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.creative button,
+.about button {
+    width: 250px;
+}
+
+
+p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/*----------about---------- */
+

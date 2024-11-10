@@ -1,0 +1,43 @@
+/*----------creative----------*/
+.creative {
+    position: relative;
+    /* border: 1px solid #fff; */
+  }
+  
+  .creative .content {
+    width: 100%;
+  }
+  
+  .contentRight {
+    padding: 0;
+    width: 50%;
+    /* border: 1px solid #fff; */
+    background: linear-gradient(130deg, #000, #222, #000);
+  }
+  
+  .creative img {
+    /* border: 1px solid #fff; */
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .creative .quote {
+    font-size: 50px;
+    color: #1ebd65;
+    margin: 20px 0;
+  }
+  
+  .creative .content h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .creative .content h3 {
+    margin: 40px 0 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1ebd65;
+  }
+  
+  /*----------creative----------*/
