@@ -15,7 +15,7 @@ function App() {
     <>
       <Nav />
       <Home />
-      {/* <About /> */}
+      <About />
       {/* <Creative /> */}
       {/* <Education /> */}
       {/* <Work /> */}
